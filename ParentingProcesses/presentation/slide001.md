@@ -4,17 +4,10 @@
          / ____/ /_/ / /  /  __/ / / / /_/ / / / / /_/ /  / ____/ /  / /_/ / /__/  __(__  )__  )
         /_/    \__,_/_/   \___/_/ /_/\__/_/_/ /_/\__, /  /_/   /_/   \____/\___/\___/____/____/
                                                 /____/
-
-
-
-
-
-
-
-                                            Pere Urbon-Bayes
-                                            Software Engineer
-                                          http://www.purbon.com
-                                          pere.urbon@gmail.com
+        Pere Urbon-Bayes
+        Software Engineer
+        http://www.purbon.com
+        pere.urbon@gmail.com
 
 
 

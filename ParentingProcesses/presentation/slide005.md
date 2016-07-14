@@ -4,8 +4,6 @@
          / /|  / /_/ / / / / / / /_/ /  __/ /  (__  )  / /_/ / /_/ / /_/ / /_/ / /_   / /_/ / /_/ / /  /  __/ / / / /_/ / / / / /_/ /
         /_/ |_/\__,_/_/ /_/ /_/_.___/\___/_/  /____/   \__,_/_.___/\____/\__,_/\__/  / .___/\__,_/_/   \___/_/ /_/\__/_/_/ /_/\__, /
                                                                                     /_/                                      /____/
-
-
         • No rules applied, every child is different.
         • Sleep might be valuable asset (specially in early days).
         • Everyone likes the way they do it, and some are very vocal about it.
@@ -16,17 +14,23 @@
          | |/ |/ / _ \ -_) _ \  / __/ _ \ -_) // / (_-< __/ _ `/ __/ __/ (_-< __/ _ \ _ \ _ \/ /
          |__/|__/_//_\__/_//_/  \__/_//_\__/\_, / /___\__/\_,_/_/  \__/ /___\__/_//_\___\___/_/
                                            /___/
-
-
         • Kindergarten is a petri dish, kids will get sick, you will get sick.
-        • How do you involve with your child education.
+        • Do you want to be involved with your child education.
+
+         _______                                                     __
+        /_  __(_)_ _ ___   __ _ ___ ____ ___ ____ ____ __ _ ___ ___ / /_
+         / / / /  ' \ -_) /  ' \ _ `/ _ \ _ `/ _ `/ -_)  ' \ -_) _ \ __/
+        /_/ /_/_/_/_\__/ /_/_/_\_,_/_//_\_,_/\_, /\__/_/_/_\__/_//_\__/
+                                            /___/
+        • Time gets scare resource? how do you manage it?
+        • Being an absent parent.
+        • Having your partner take all the load.
+        • Sharing.
 
            ____                       __      __      ____
           /  _/__    ___ _  ___ __ __/ /____ / / ___ / / /
          _/ // _ \  / _ `/ / _ \ // / __(_-</ _ \ -_) / /
         /___/_//_/  \_,_/ /_//_\_,_/\__/___/_//_\__/_/_/
-
-
 
         • You are as bad parent as everyone else is! Keep this in mind.
         • Empathy should never be forgotten, with kids and other parents.
@@ -35,8 +39,6 @@
           /  _/ _    _____  ___ ___/ /__ ____
          _/ /  | |/|/ / _ \/ _ \ _  / -_) __/
         /___/  |__,__/\___/_//_\_,_/\__/_/
-
-
 
         • Is parenting a craft?
         • Do you see many differences with day to day job in software?

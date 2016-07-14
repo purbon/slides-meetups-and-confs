@@ -24,29 +24,30 @@ pere.urbon@gmail.com
 * Numbers about parenting.
 * What are common expectations from society?
 * Startups and corporate company culture.
-* What companies can, _should_ do.
+* What companies can and _should_ do.
 
 
 # Software engineering today
 
-* No matter what, your job is your passion.
+* Software runs the world.
+* No matter what, your job is usually your passion.
 * Change is going to be a constant.
 * Constant learning and improvement required.
+* There is this idea that you should be programming at work and after work. There is life outside of a laptop, really!!!
 * Craft or Engineering job, two different approaches for the same task.
 
-##  Soft requirements
+##  Requirements
 
-* Software runs the world.
 * Highly rewarding when problems are solved.
 * Male centric business, women are scare (_also scared_).
 * Ego centric arguments can be pretty important.
-* Lack of interest in STEM, _and this is for everyone_
 
 ## Other facts
 
 * Focus, being distracted regularly, _is bad_.
 * Hero culture, long working hours.
-* Irregular working hours, specially in berlin startups... (10h ish)
+* Irregular working hours, specially in Berlin startups... (10h ish)
+* Lack of interest in STEM, _and this is for everyone_
 
 
 # Numbers about parenting
@@ -57,27 +58,38 @@ pere.urbon@gmail.com
 * Is an ongoing process for everyone, no time to complain for failure.
 
 ## When they start school
+
 * Kindergarten is a petri dish, kids will get sick, you will get sick.
-* How do you involve with your child education.
+* Do you want to be involved with your child education.
+
+## Time management
+
+* Time gets scare resource? how do you manage it?
+* Being an absent parent.
+* Having your partner take all the load.
+* Sharing.
 
 ## In a nutshell
+
 * You are as bad parent as everyone else is! Keep this in mind.
 * Empathy should never be forgotten, with kids and other parents.
 
 ## I wonder
+
 * Is parenting a craft?
 * Do you see many differences with day to day job in software?
 
 
-# Expectations society sets
+# Society expectations 
 
 * Care activity usually done by woman.
 * This exclude them from work life long time.
 * Parental benefits are different across countries.
-* Encourages differences across woman and man.
-* School schedules are not family friendly (specially in Spain)
+* Encourages differences across woman and man in regards of child's.
+* School schedules are not family friendly (specially in Spain).
 
-## How is absence taken and shared
+## Leave of Absence
+
 * Not taking _Mutterschutz_.
 * Go quick back to work.
 * Who goes to the doctors?.
@@ -89,24 +101,61 @@ pere.urbon@gmail.com
 * Women? Grand parents? shared?
 
 
-# Startup's and company culture.
+# Companies
+
+* Initial team, including founders set the culture for a company.
+* Long working hours, no money, but we're cool!.
+* Mission driven? are this companies going to safe the world? Over hipped environment.
+* How do you understand productivity? Long hours? Getting things done?
 
 ## Perks
+
 * Perks are usually club mate, beer, kicker, ping pong table, ...
-* Food is provided, or subsided
-* Meetup's, usually run after hours.
+* Food is provided, or subsided.
+* [Long term education] Meetup's, usually run after hours.
+* Some large companies might have day care benefits.
 
 ## Culture
+
 * The hero effort culture, long working hours.
-* Empathy to a common skill across companies.
+* Not used to remote working, or work from home culture, need to be in
+  the office even if not necessary.
+* Is empathy missing? should be there.
 
 ## Environment
+
 * Hard working environment, could be frightening for some people.
 * Companies hiring as if job was an extension of university. Ninja,
   hacker, ego driven in general.
 * No hiring woman at certain ages, asking sometimes weird questions...
 
-# What is Work life balance?.....
+
+# Work life balance
+
+* What does it means? How much work? / how much balance?
+* Balance could mean different for one people than for others.
+* Time for other things than Programming, kids and family get important?
+* Basically means taking time for yourself, either for family, sports,
+  relax, time to recharge from work duties.
+
+
+# What can you do about it
+
+* Understand who your employees are, singles, couples or people with kids have different needs or expectations, you can't deal with all the same way.
+* Is challenging, but encouraging remote working, or work from home policies, really helps as time gets scare.
+* If you hire grown up's you've to trust them to do the right thing.
+* If your company has people all around the world try to have them similar kid benefits, each country is different. (ex: USA, Spain, Holland, Germany, Sweden).
+* Don't exclude people with other interest or obligations from the company, meetings and decision making should be arrange at common time frames.
+* If your startup/company have some parents, might be you will benefit from hiring a day care giver for them.
+* If your employees are required to travel make sure they get time back for their own.
+
+## Fear burnout
+
+* Worst thing that can happen is a burn out employee.
+* Happy employee usually means more productive one, including parents
+  who value their time as is scare for them.
+* When you loss employees, or have unhappy ones, this means your ability
+  to grow is lower, your most valuable asset are your humans.
 
 
 

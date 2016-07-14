@@ -4,8 +4,6 @@
         | |/ |/ / / / / /_/ / /_/ / / / / / / /
         |__/|__/_/ /_/\____/\__,_/_/ /_/ /_/_/
 
-
-
           Pere Urbon-Bayes (Software Engineer since ever)
 
           Been working always with Databases, Data and Analytics.
