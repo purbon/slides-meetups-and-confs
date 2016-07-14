@@ -1,32 +1,57 @@
-           _____            _      __                                     __        __  _
-          / ___/____  _____(_)__  / /___  __   ___  _  ______  ___  _____/ /_____ _/ /_(_)___  ____  _____
-          \__ \/ __ \/ ___/ / _ \/ __/ / / /  / _ \| |/_/ __ \/ _ \/ ___/ __/ __ `/ __/ / __ \/ __ \/ ___/
-         ___/ / /_/ / /__/ /  __/ /_/ /_/ /  /  __/>  </ /_/ /  __/ /__/ /_/ /_/ / /_/ / /_/ / / / (__  )
-        /____/\____/\___/_/\___/\__/\__, /   \___/_/|_/ .___/\___/\___/\__/\__,_/\__/_/\____/_/ /_/____/
-                                   /____/            /_/
-        • Care activity usually done by woman.
-        • This exclude them from work life long time.
-        • Parental benefits are different across countries.
-        • Encourages differences across woman and man in regards of child's.
-        • School schedules are not family friendly (specially in Spain).
+            _   __                __                            __                __                                 __  _
+           / | / /_  ______ ___  / /_  ___  __________   ____ _/ /_  ____  __  __/ /_   ____  ____ _________  ____  / /_(_)___  ____ _
+          /  |/ / / / / __ `__ \/ __ \/ _ \/ ___/ ___/  / __ `/ __ \/ __ \/ / / / __/  / __ \/ __ `/ ___/ _ \/ __ \/ __/ / __ \/ __ `/
+         / /|  / /_/ / / / / / / /_/ /  __/ /  (__  )  / /_/ / /_/ / /_/ / /_/ / /_   / /_/ / /_/ / /  /  __/ / / / /_/ / / / / /_/ /
+        /_/ |_/\__,_/_/ /_/ /_/_.___/\___/_/  /____/   \__,_/_.___/\____/\__,_/\__/  / .___/\__,_/_/   \___/_/ /_/\__/_/_/ /_/\__, /
+                                                                                    /_/                                      /____/
 
-           __                           ___  ___   __
-          / / ___ ___ __  _____   ___  / _/ / _ | / /  ______ ___ _______
-         / /__ -_) _ `/ |/ / -_) / _ \/ _/ / __ |/ _ \(_-< -_) _ \ __/ -_)
-        /____\__/\_,_/|___/\__/  \___/_/  /_/ |_/_.__/___\__/_//_\__/\__/
 
-        • Not taking *Mutterschutz*.
-        • Go quick back to work.
-        • Who goes to the doctors?.
-        • Who staying home when kids are ill? (*Kinderkrankengeld*).
+        • No rules applied, every child is different.
+        • Sleep might be valuable asset (specially in early days).
+        • Everyone likes the way they do it, and some are very vocal about it.
+        • Is an ongoing process for everyone, no time to complain for failure.
+
+          _      ____             __  __                __           __           __           __
+         | | /| / / / ___ ___    / /_/ / ___ __ __  ___/ /____ _____/ /_  _______/ / ___ ___  / /
+         | |/ |/ / _ \ -_) _ \  / __/ _ \ -_) // / (_-< __/ _ `/ __/ __/ (_-< __/ _ \ _ \ _ \/ /
+         |__/|__/_//_\__/_//_/  \__/_//_\__/\_, / /___\__/\_,_/_/  \__/ /___\__/_//_\___\___/_/
+                                           /___/
+
+
+        • Kindergarten is a petri dish, kids will get sick, you will get sick.
+        • Do you want to be involved with your child education.
+
+         _______                                                     __
+        /_  __(_)_ _ ___   __ _ ___ ____ ___ ____ ____ __ _ ___ ___ / /_
+         / / / /  ' \ -_) /  ' \ _ `/ _ \ _ `/ _ `/ -_)  ' \ -_) _ \ __/
+        /_/ /_/_/_/_\__/ /_/_/_\_,_/_//_\_,_/\_, /\__/_/_/_\__/_//_\__/
+                                            /___/
+
+
+        • Time gets scare resource? how do you manage it?
+        • Being an absent parent.
+        • Having your partner take all the load.
+        • Sharing.
 
            ____                       __      __      ____
           /  _/__    ___ _  ___ __ __/ /____ / / ___ / / /
          _/ // _ \  / _ `/ / _ \ // / __(_-</ _ \ -_) / /
         /___/_//_/  \_,_/ /_//_\_,_/\__/___/_//_\__/_/_/
 
-        • Who takes the most of the **burden** involved with having kids?
-        • Women? Grand parents? shared?
+
+
+        • You are as bad parent as everyone else is! Keep this in mind.
+        • Empathy should never be forgotten, with kids and other parents.
+
+           ____                     __
+          /  _/ _    _____  ___ ___/ /__ ____
+         _/ /  | |/|/ / _ \/ _ \ _  / -_) __/
+        /___/  |__,__/\___/_//_\_,_/\__/_/
+
+
+
+        • Is parenting a craft?
+        • Do you see many differences with day to day job in software?
 
 
 

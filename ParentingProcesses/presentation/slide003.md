@@ -4,6 +4,8 @@
          / / / /_/ / /_/ / / /__(__  )  / __/ /_/ / /     / /_/ /_/ / /_/ / /_/ / /_/ /
         /_/  \____/ .___/_/\___/____/  /_/  \____/_/      \__/\____/\__,_/\__,_/\__, /
                  /_/                                                           /____/
+
+
         • What it means to be in software engineering today?
         • Numbers about parenting.
         • What are common expectations from society?

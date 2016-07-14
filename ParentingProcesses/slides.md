@@ -50,6 +50,11 @@ pere.urbon@gmail.com
 * Lack of interest in STEM, _and this is for everyone_
 
 
+# You're want you do
+
+* Very important to have realization!! 
+
+
 # Numbers about parenting
 
 * No rules applied, every child is different.
@@ -101,6 +106,12 @@ pere.urbon@gmail.com
 * Women? Grand parents? shared?
 
 
+# Empathy
+
+* The big forgotten thing in our society!
+* In a consumerist driven society we all thing only about us.
+
+
 # Companies
 
 * Initial team, including founders set the culture for a company.
@@ -118,15 +129,13 @@ pere.urbon@gmail.com
 ## Culture
 
 * The hero effort culture, long working hours.
-* Not used to remote working, or work from home culture, need to be in
-  the office even if not necessary.
-* Is empathy missing? should be there.
+* Not used to remote working, or work from home culture, need to be in the office even if not necessary.
+* Is empathy missing? Should be there.
 
 ## Environment
 
 * Hard working environment, could be frightening for some people.
-* Companies hiring as if job was an extension of university. Ninja,
-  hacker, ego driven in general.
+* Companies hiring as if job was an extension of university. Ninja, Hacker, ego driven in general.
 * No hiring woman at certain ages, asking sometimes weird questions...
 
 
@@ -142,21 +151,102 @@ pere.urbon@gmail.com
 # What can you do about it
 
 * Understand who your employees are, singles, couples or people with kids have different needs or expectations, you can't deal with all the same way.
+
+## Working hours
 * Is challenging, but encouraging remote working, or work from home policies, really helps as time gets scare.
 * If you hire grown up's you've to trust them to do the right thing.
-* If your company has people all around the world try to have them similar kid benefits, each country is different. (ex: USA, Spain, Holland, Germany, Sweden).
 * Don't exclude people with other interest or obligations from the company, meetings and decision making should be arrange at common time frames.
+* In case meeting could be scheduled, use recoding and make this information available.
+
+## Perks
+* If your company has people all around the world try to have them similar kid benefits, each country is different. (ex: USA, Spain, Holland, Germany, Sweden).
 * If your startup/company have some parents, might be you will benefit from hiring a day care giver for them.
 * If your employees are required to travel make sure they get time back for their own.
+
+## Empathy
+* If your employees ask you to stay home, is probably because they have no other option.
+
+## Communication
+* Foster async communication, usually there is no need to be real time 100% of the time.
+
 
 ## Fear burnout
 
 * Worst thing that can happen is a burn out employee.
-* Happy employee usually means more productive one, including parents
-  who value their time as is scare for them.
-* When you loss employees, or have unhappy ones, this means your ability
-  to grow is lower, your most valuable asset are your humans.
+* Happy employee usually means more productive one, including parents, who value their time as is scare for them.
+* When you loss employees, or have unhappy ones, this means your ability to grow is lower, your most valuable asset are your humans.
 
+
+# Pros and Cons
+
+* Having kids and working can be challenging, specially when something out of order happens.
+* If you're lucky to be in a home office setup, there is time for work and time for pleasure (important to divide properly).
+* Working remotely is not for everyone, require a lot of self motivation, specially when handling several thing at the same time.
+* There is going to be challenges at work, usually society is not that well understanding for parenting requirements. Specially for man.
+* Good internet connection can be a challenge, tell me I live in Berlin.
+* Wiki's can be outdated soon, usually keeping any kind of documentation up to date is hard.
+
+* End of the day, if your family is happy you're happy, and this benefits everybody.
+
+## Big +1
+
+Being in charge of your own time is a very rewarding thing, specially during the days before the birth and during the first years, when you're
+going to be worried by a lot of things and for sure visiting a lot of doctors.
+
+## Tools
+
+* Skype, Google Hangout, Zoom (for videoconferencing).
+* Email for async communication.
+* Slack/Hipchat/IM for sync communication.
+* Wiki for knowledge sharing.
+
+
+## Some numbers from real live
+
+## Das Burnout
+
+Many believe overwork isn’t the main reason behind the affliction, which Germans routinely refer to as das Burnout. Instead, a stress study by Techniker Krankenkasse and interviews with a number of workers suggest burnout stems from crushing hierarchies and unrealistic expectations in the workplace, and scant praise or recognition from bosses.
+
+“You’re a good citizen when you work a lot. And then you have a well-deserved, good illness when you suffer from burnout,” said Dr. Adli, who is director of the mood disorders research group at Charité, Berlin.
+
+http://www.wsj.com/articles/das-burnout-an-epidemic-in-germany-1464023945
+
+
+## Avg age of women at birth
+
+Germany (2014):
+
+* total: 30.9
+* 1st: 29.5
+* 2nd: 31.8
+
+Fertility rate (2014): 1.47
+
+Spain (2014)
+
+* total: 31.7
+
+Fertility rate (2014): 1.32
+
+
+## Birth defects
+
+* At age 20, 1 in 1,441
+* At age 25, 1 in 1,383
+* At age 30, 1 in 959
+* At age 35, 1 in 338
+* At age 40, 1 in 84
+* At age 45, 1 in 32
+* At age 50, 1 in 44
+
+> https://en.wikipedia.org/wiki/Advanced_maternal_age#Risk_of_birth_defects
+
+
+# Common responsibility 
+
+* We've been all kids with parents.
+* Most of us are or will be parents.
+* This is on all of us.
 
 
 # The end

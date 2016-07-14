@@ -1,43 +1,38 @@
-           ______                                  _
-          / ____/___  ____ ___  ____  ____ _____  (_)__  _____
-         / /   / __ \/ __ `__ \/ __ \/ __ `/ __ \/ / _ \/ ___/
-        / /___/ /_/ / / / / / / /_/ / /_/ / / / / /  __(__  )
-        \____/\____/_/ /_/ /_/ .___/\__,_/_/ /_/_/\___/____/
-                            /_/
-        • Initial team, including founders set the culture for a company.
-        • Long working hours, no money, but we're cool!.
-        • Mission driven? are this companies going to safe the world? Over hipped environment.
-        • How do you understand productivity? Long hours? Getting things done?
+           _____            _      __                                     __        __  _
+          / ___/____  _____(_)__  / /___  __   ___  _  ______  ___  _____/ /_____ _/ /_(_)___  ____  _____
+          \__ \/ __ \/ ___/ / _ \/ __/ / / /  / _ \| |/_/ __ \/ _ \/ ___/ __/ __ `/ __/ / __ \/ __ \/ ___/
+         ___/ / /_/ / /__/ /  __/ /_/ /_/ /  /  __/>  </ /_/ /  __/ /__/ /_/ /_/ / /_/ / /_/ / / / (__  )
+        /____/\____/\___/_/\___/\__/\__, /   \___/_/|_/ .___/\___/\___/\__/\__,_/\__/_/\____/_/ /_/____/
+                                   /____/            /_/
 
-           ___          __
-          / _ \___ ____/ /_____
-         / ___/ -_) __/  '_(_-<
-        /_/   \__/_/ /_/\_\___/
 
-        • Perks are usually club mate, beer, kicker, ping pong table, ...
-        • Food is provided, or subsided.
-        • [Long term education] Meetup's, usually run after hours.
-        • Some large companies might have day care benefits.
+        • Care activity usually done by woman.
+        • This exclude them from work life long time.
+        • Parental benefits are different across countries.
+        • Encourages differences across woman and man in regards of child's.
+        • School schedules are not family friendly (specially in Spain).
 
-          _____     ____
-         / ___/_ __/ / /___ _________
-        / /__/ // / / __/ // / __/ -_)
-        \___/\_,_/_/\__/\_,_/_/  \__/
+           __                           ___  ___   __
+          / / ___ ___ __  _____   ___  / _/ / _ | / /  ______ ___ _______
+         / /__ -_) _ `/ |/ / -_) / _ \/ _/ / __ |/ _ \(_-< -_) _ \ __/ -_)
+        /____\__/\_,_/|___/\__/  \___/_/  /_/ |_/_.__/___\__/_//_\__/\__/
 
-        • The hero effort culture, long working hours.
-        • Not used to remote working, or work from home culture, need to be in
-        • the office even if not necessary.
-        • Is empathy missing? should be there.
 
-           ____         _                            __
-          / __/__ _  __(_)______  ___  __ _ ___ ___ / /_
-         / _// _ \ |/ / / __/ _ \/ _ \/  ' \ -_) _ \ __/
-        /___/_//_/___/_/_/  \___/_//_/_/_/_\__/_//_\__/
 
-        • Hard working environment, could be frightening for some people.
-        • Companies hiring as if job was an extension of university. Ninja,
-        • hacker, ego driven in general.
-        • No hiring woman at certain ages, asking sometimes weird questions...
+        • Not taking *Mutterschutz*.
+        • Go quick back to work.
+        • Who goes to the doctors?.
+        • Who staying home when kids are ill? (*Kinderkrankengeld*).
+
+           ____                       __      __      ____
+          /  _/__    ___ _  ___ __ __/ /____ / / ___ / / /
+         _/ // _ \  / _ `/ / _ \ // / __(_-</ _ \ -_) / /
+        /___/_//_/  \_,_/ /_//_\_,_/\__/___/_//_\__/_/_/
+
+
+
+        • Who takes the most of the **burden** involved with having kids?
+        • Women? Grand parents? shared?
 
 
 

@@ -1,27 +1,49 @@
-         _       ____          __                                                  __               __                __     _ __
-        | |     / / /_  ____ _/ /_   _________ _____     __  ______  __  __   ____/ /___     ____ _/ /_  ____  __  __/ /_   (_) /_
-        | | /| / / __ \/ __ `/ __/  / ___/ __ `/ __ \   / / / / __ \/ / / /  / __  / __ \   / __ `/ __ \/ __ \/ / / / __/  / / __/
-        | |/ |/ / / / / /_/ / /_   / /__/ /_/ / / / /  / /_/ / /_/ / /_/ /  / /_/ / /_/ /  / /_/ / /_/ / /_/ / /_/ / /_   / / /_
-        |__/|__/_/ /_/\__,_/\__/   \___/\__,_/_/ /_/   \__, /\____/\__,_/   \__,_/\____/   \__,_/_.___/\____/\__,_/\__/  /_/\__/
-                                                      /____/
-        • Understand who your employees are, singles, couples or people with kids have different needs or expectations, you can't deal with all the same way.
-        • Is challenging, but encouraging remote working, or work from home policies, really helps as time gets scare.
-        • If you hire grown up's you've to trust them to do the right thing.
-        • If your company has people all around the world try to have them similar kid benefits, each country is different. (ex: USA, Spain, Holland, Germany, Sweden).
-        • Don't exclude people with other interest or obligations from the company, meetings and decision making should be arrange at common time frames.
-        • If your startup/company have some parents, might be you will benefit from hiring a day care giver for them.
-        • If your employees are required to travel make sure they get time back for their own.
+           ______                                  _
+          / ____/___  ____ ___  ____  ____ _____  (_)__  _____
+         / /   / __ \/ __ `__ \/ __ \/ __ `/ __ \/ / _ \/ ___/
+        / /___/ /_/ / / / / / / /_/ / /_/ / / / / /  __(__  )
+        \____/\____/_/ /_/ /_/ .___/\__,_/_/ /_/_/\___/____/
+                            /_/
 
-           ____               __                        __
-          / __/__ ___ _____  / / __ _________ ___ __ __/ /_
-         / _// -_) _ `/ __/ / _ \ // / __/ _ \ _ \ // / __/
-        /_/  \__/\_,_/_/   /_.__\_,_/_/ /_//_\___\_,_/\__/
 
-        • Worst thing that can happen is a burn out employee.
-        • Happy employee usually means more productive one, including parents
-        • who value their time as is scare for them.
-        • When you loss employees, or have unhappy ones, this means your ability
-        • to grow is lower, your most valuable asset are your humans.
+        • Initial team, including founders set the culture for a company.
+        • Long working hours, no money, but we're cool!.
+        • Mission driven? are this companies going to safe the world? Over hipped environment.
+        • How do you understand productivity? Long hours? Getting things done?
+
+           ___          __
+          / _ \___ ____/ /_____
+         / ___/ -_) __/  '_(_-<
+        /_/   \__/_/ /_/\_\___/
+
+
+
+        • Perks are usually club mate, beer, kicker, ping pong table, ...
+        • Food is provided, or subsided.
+        • [Long term education] Meetup's, usually run after hours.
+        • Some large companies might have day care benefits.
+
+          _____     ____
+         / ___/_ __/ / /___ _________
+        / /__/ // / / __/ // / __/ -_)
+        \___/\_,_/_/\__/\_,_/_/  \__/
+
+
+
+        • The hero effort culture, long working hours.
+        • Not used to remote working, or work from home culture, need to be in the office even if not necessary.
+        • Is empathy missing? Should be there.
+
+           ____         _                            __
+          / __/__ _  __(_)______  ___  __ _ ___ ___ / /_
+         / _// _ \ |/ / / __/ _ \/ _ \/  ' \ -_) _ \ __/
+        /___/_//_/___/_/_/  \___/_//_/_/_/_\__/_//_\__/
+
+
+
+        • Hard working environment, could be frightening for some people.
+        • Companies hiring as if job was an extension of university. Ninja, Hacker, ego driven in general.
+        • No hiring woman at certain ages, asking sometimes weird questions...
 
 
 

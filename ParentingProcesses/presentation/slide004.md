@@ -4,6 +4,8 @@
          ___/ / /_/ / __/ /_ | |/ |/ / /_/ / /  /  __/  /  __/ / / / /_/ / / / / /  __/  __/ /  / / / / / /_/ /  / /_/ /_/ / /_/ / /_/ / /_/ /
         /____/\____/_/  \__/ |__/|__/\__,_/_/   \___/   \___/_/ /_/\__, /_/_/ /_/\___/\___/_/  /_/_/ /_/\__, /   \__/\____/\__,_/\__,_/\__, /
                                                                   /____/                               /____/                         /____/
+
+
         • Software runs the world.
         • No matter what, your job is usually your passion.
         • Change is going to be a constant.
@@ -16,6 +18,8 @@
          / , _/ -_) _ `/ // / / __/ -_)  ' \ -_) _ \ __(_-<
         /_/|_|\__/\_, /\_,_/_/_/  \__/_/_/_\__/_//_\__/___/
                    /_/
+
+
         • Highly rewarding when problems are solved.
         • Male centric business, women are scare (*also scared*).
         • Ego centric arguments can be pretty important.
@@ -24,6 +28,8 @@
          / __ \/ /_/ / ___ ____  / _/__ _____/ /____
         / /_/ / __/ _ \ -_) __/ / _/ _ `/ __/ __(_-<
         \____/\__/_//_\__/_/   /_/ \_,_/\__/\__/___/
+
+
 
         • Focus, being distracted regularly, *is bad*.
         • Hero culture, long working hours.

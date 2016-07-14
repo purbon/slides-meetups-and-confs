@@ -1,0 +1,92 @@
+           ____               __                        __
+          / __/__ ___ _____  / / __ _________ ___ __ __/ /_
+         / _// -_) _ `/ __/ / _ \ // / __/ _ \ _ \ // / __/
+        /_/  \__/\_,_/_/   /_.__\_,_/_/ /_//_\___\_,_/\__/
+
+
+
+        • Worst thing that can happen is a burn out employee.
+        • Happy employee usually means more productive one, including parents, who value their time as is scare for them.
+        • When you loss employees, or have unhappy ones, this means your ability to grow is lower, your most valuable asset are your humans.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+slide 012
