@@ -1,0 +1,197 @@
+Code,Station,Line
+9029302,S+U Rathaus Spandau (Berlin),U7
+9029301,U Altstadt Spandau (Berlin),U7
+9033101,U Zitadelle (Berlin),U7
+9034102,U Haselhorst (Berlin),U7
+9034101,U Paulsternstr. (Berlin),U7
+9036101,U Rohrdamm (Berlin),U7
+9035101,U Siemensdamm (Berlin),U7
+9018102,U Halemweg (Berlin),U7
+9018101,U Jakob-Kaiser-Platz (Berlin),U7
+9020201,S+U Jungfernheide Bhf (Berlin),U7
+9019204,U Mierendorffplatz (Berlin),U7
+9022202,U Richard-Wagner-Platz (Berlin),U7
+9024201,U Bismarckstr. (Berlin),U7
+9024202,U Wilmersdorfer Str. (Berlin),U7
+9023302,U Adenauerplatz (Berlin),U7
+9041201,U Konstanzer Str. (Berlin),U7
+9041101,U Fehrbelliner Platz (Berlin),U7
+9041102,U Blissestr. (Berlin),U7
+9044201,U Berliner Str. (Berlin),U7
+9055102,U Bayerischer Platz (Berlin),U7
+9054103,U Eisenacher Str. (Berlin),U7
+9054102,U Kleistpark (Berlin),U7
+9057103,S+U Yorckstr. (Berlin),U7
+9017104,U Möckernbrücke (Berlin),U7
+9017101,U Mehringdamm (Berlin),U7
+9016101,U Gneisenaustr. (Berlin),U7
+9016202,U Südstern (Berlin),U7
+9078101,U Hermannplatz (Berlin),U7
+9078102,U Rathaus Neukölln (Berlin),U7
+9078103,U Karl-Marx-Str. (Berlin),U7
+9078272,S+U Neukölln (Berlin) [U7],U7
+9080202,U Grenzallee (Berlin),U7
+9080201,U Blaschkoallee (Berlin),U7
+9080401,U Parchimer Allee (Berlin),U7
+9080402,U Britz-Süd (Berlin),U7
+9082202,U Johannisthaler Chaussee (Berlin),U7
+9082201,U Lipschitzallee (Berlin),U7
+9083102,U Wutzkyallee (Berlin),U7
+9083101,U Zwickauer Damm (Berlin),U7
+9083201,U Rudow (Berlin),U7
+9130002,S+U Pankow (Berlin),U2
+9130011,U Vinetastr. (Berlin),U2
+9110001,S+U Schönhauser Allee (Berlin),U2
+9110006,U Eberswalder Str. (Berlin),U2
+9110005,U Senefelderplatz (Berlin),U2
+9100016,U Rosa-Luxemburg-Platz (Berlin),U2
+9100003,S+U Alexanderplatz Bhf (Berlin),U2
+9100015,U Klosterstr. (Berlin),U2
+9100014,U Märkisches Museum (Berlin),U2
+9100013,U Spittelmarkt (Berlin),U2
+9100012,U Hausvogteiplatz (Berlin),U2
+9100701,U Stadtmitte U2 (Berlin),U2
+9100010,U Mohrenstr. (Berlin),U2
+9100720,S+U Potsdamer Platz (Bln) [U2],U2
+9005252,U Mendelssohn-Bartholdy-Park (Berlin),U2
+9017103,U Gleisdreieck (Berlin),U2
+9056104,U Bülowstr. (Berlin),U2
+9056102,U Nollendorfplatz (Berlin),U2
+9056101,U Wittenbergplatz (Berlin),U2
+9023201,S+U Zoologischer Garten Bhf (Berlin),U2
+9023101,U Ernst-Reuter-Platz (Berlin),U2
+9022201,U Deutsche Oper (Berlin),U2
+9024201,U Bismarckstr. (Berlin),U2
+9022101,U Sophie-Charlotte-Platz (Berlin),U2
+9026202,U Kaiserdamm (Berlin),U2
+9026201,U Theodor-Heuss-Platz (Berlin),U2
+9026101,U Neu-Westend (Berlin),U2
+9025203,U Olympia-Stadion (Berlin),U2
+9025202,U Ruhleben (Berlin),U2
+9120004,S+U Warschauer Str. (Berlin),U1
+9014102,U Schlesisches Tor (Berlin),U1
+9014101,U Görlitzer Bahnhof (Berlin),U1
+9013102,U Kottbusser Tor (Berlin),U1
+9013103,U Prinzenstr. (Berlin),U1
+9012103,U Hallesches Tor (Berlin),U1
+9017104,U Möckernbrücke (Berlin),U1
+9017103,U Gleisdreieck (Berlin),U1
+9005201,U Kurfürstenstr. (Berlin),U1
+9056102,U Nollendorfplatz (Berlin),U1
+9056101,U Wittenbergplatz (Berlin),U1
+9023203,U Kurfürstendamm (Berlin),U1
+9023301,U Uhlandstr. (Berlin),U1
+9056102,U Nollendorfplatz (Berlin),U3
+9056101,U Wittenbergplatz (Berlin),U3
+9023202,U Augsburger Str. (Berlin),U3
+9042101,U Spichernstr. (Berlin),U3
+9043101,U Hohenzollernplatz (Berlin),U3
+9041101,U Fehrbelliner Platz (Berlin),U3
+9045102,S+U Heidelberger Platz (Berlin),U3
+9045101,U Rüdesheimer Platz (Berlin),U3
+9051202,U Breitenbachplatz (Berlin),U3
+9051302,U Podbielskiallee (Berlin),U3
+9051303,U Dahlem-Dorf (Berlin),U3
+9051201,U Thielplatz (Berlin),U3
+9051301,U Oskar-Helene-Heim (Berlin),U3
+9050282,U Onkel Toms Hütte (Berlin),U3
+9050201,U Krumme Lanke (Berlin),U3
+9056102,U Nollendorfplatz (Berlin),U4
+9055101,U Viktoria-Luise-Platz (Berlin),U4
+9055102,U Bayerischer Platz (Berlin),U4
+9054101,U Rathaus Schöneberg (Berlin),U4
+9054105,S+U Innsbrucker Platz (Berlin),U4
+9175010,U Hönow (Berlin),U5
+9175015,U Louis-Lewin-Str. (Berlin),U5
+9175007,U Hellersdorf (Berlin),U5
+9175006,U Cottbusser Platz (Berlin),U5
+9175005,U Neue Grottkauer Str. (Berlin),U5
+9175004,U Kaulsdorf-Nord (Berlin),U5
+9175001,S+U Wuhletal (Berlin),U5
+9171006,U Elsterwerdaer Platz (Berlin),U5
+9171005,U Biesdorf-Süd (Berlin),U5
+9161002,U Tierpark (Berlin),U5
+9161512,U Friedrichsfelde (Berlin),U5
+9160701,S+U Lichtenberg (Berlin) [U5],U5
+9160005,U Magdalenenstr. (Berlin),U5
+9120001,S+U Frankfurter Allee (Berlin),U5
+9120009,U Samariterstr. (Berlin),U5
+9120008,U Frankfurter Tor (Berlin),U5
+9120025,U Weberwiese (Berlin),U5
+9120006,U Strausberger Platz (Berlin),U5
+9100017,U Schillingstr. (Berlin),U5
+9100003,S+U Alexanderplatz Bhf (Berlin),U5
+9089301,U Alt-Tegel (Berlin),U6
+9088202,U Borsigwerke (Berlin),U6
+9088201,U Holzhauser Str. (Berlin),U6
+9086101,U Otisstr. (Berlin),U6
+9087101,U Scharnweberstr. (Berlin),U6
+9086102,U Kurt-Schumacher-Platz (Berlin),U6
+9011102,U Afrikanische Str. (Berlin),U6
+9011101,U Rehberge (Berlin),U6
+9009103,U Seestr. (Berlin),U6
+9009102,U Leopoldplatz (Berlin),U6
+9009104,S+U Wedding (Berlin),U6
+9008102,U Reinickendorfer Str. (Berlin),U6
+9100501,U Schwartzkopffstr. (Berlin),U6
+9100009,U Naturkundemuseum (Berlin),U6
+9100019,U Oranienburger Tor (Berlin),U6
+9100001,S+U Friedrichstr. Bhf (Berlin),U6
+9100027,U Französische Str. (Berlin),U6
+9100011,U Stadtmitte (Berlin),U6
+9012102,U Kochstr./Checkpoint Charlie (Berlin),U6
+9012103,U Hallesches Tor (Berlin),U6
+9017101,U Mehringdamm (Berlin),U6
+9017102,U Platz der Luftbrücke (Berlin),U6
+9068101,U Paradestr. (Berlin),U6
+9068201,S+U Tempelhof (Berlin),U6
+9068202,U Alt-Tempelhof (Berlin),U6
+9068302,U Kaiserin-Augusta-Str. (Berlin),U6
+9069271,U Ullsteinstr. (Berlin),U6
+9070101,U Westphalweg (Berlin),U6
+9070301,U Alt-Mariendorf (Berlin),U6
+9096197,S+U Wittenau (Berlin) [U8],U8
+9096410,U Rathaus Reinickendorf (Berlin),U8
+9096458,S+U Karl-Bonhoeffer-Nervenklinik (Berlin),U8
+9086160,U Lindauer Allee (Berlin),U8
+9085104,U Paracelsus-Bad (Berlin),U8
+9085203,U Residenzstr. (Berlin),U8
+9085202,U Franz-Neumann-Platz (Berlin),U8
+9009202,U Osloer Str. (Berlin),U8
+9009203,U Pankstr. (Berlin),U8
+9007102,S+U Gesundbrunnen Bhf (Berlin),U8
+9007103,U Voltastr. (Berlin),U8
+9007110,U Bernauer Str. (Berlin),U8
+9100023,U Rosenthaler Platz (Berlin),U8
+9100051,U Weinmeisterstr. (Berlin),U8
+9100003,S+U Alexanderplatz Bhf (Berlin),U8
+9100004,S+U Jannowitzbrücke (Berlin),U8
+9100008,U Heinrich-Heine-Str. (Berlin),U8
+9013101,U Moritzplatz (Berlin),U8
+9013102,U Kottbusser Tor (Berlin),U8
+9016201,U Schönleinstr. (Berlin),U8
+9078101,U Hermannplatz (Berlin),U8
+9079202,U Boddinstr. (Berlin),U8
+9079201,U Leinestr. (Berlin),U8
+9079221,S+U Hermannstr. (Berlin),U8
+9009202,U Osloer Str. (Berlin),U9
+9009201,U Nauener Platz (Berlin),U9
+9009102,U Leopoldplatz (Berlin),U9
+9009101,U Amrumer Str. (Berlin),U9
+9001201,S+U Westhafen (Berlin),U9
+9002201,U Birkenstr. (Berlin),U9
+9003104,U Turmstr. (Berlin),U9
+9003101,U Hansaplatz (Berlin),U9
+9023201,S+U Zoologischer Garten Bhf (Berlin),U9
+9023203,U Kurfürstendamm (Berlin),U9
+9042101,U Spichernstr. (Berlin),U9
+9043201,U Güntzelstr. (Berlin),U9
+9044201,U Berliner Str. (Berlin),U9
+9044202,S+U Bundesplatz (Berlin),U9
+9061102,U Friedrich-Wilhelm-Platz (Berlin),U9
+9061101,U Walther-Schreiber-Platz (Berlin),U9
+9062203,U Schloßstr. (Berlin),U9
+9062781,S+U Rathaus Steglitz (Berlin) [U9],U9
+9100025,S+U Brandenburger Tor (Berlin),U55
+9003254,U Bundestag (Berlin),U55
+9003201,S+U Berlin Hauptbahnhof,U55
