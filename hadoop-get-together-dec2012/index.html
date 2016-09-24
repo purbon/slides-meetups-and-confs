@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>NoSQL and Graph, a love story</title>
+
+    <meta name="description" content="Relationships matters...">
+    <meta name="author" content="Pere Urbon-Bayes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <link rel="stylesheet" href="css/custom.css"/>
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section>
+        <div class="frontpage">
+          <h1>NoSQL and Graph love story</h1>
+          <h3>Relationships really mather</h3>
+          <p>
+          <img src="img/frontpage.jpg"/>
+          </p>
+        </div>
+        </section>
+
+
+        <section>
+        <h1>whoami</h1>
+        <ul>
+          <li><em>Github</em>: @purbon</li>
+          <li><em>Twitter</em>: @purbon</li>
+          <li>Software Architect at Belectric ITS Gmbh</li>
+          <li>Run the Graph Processing DevRoom within FOSDEM</li>
+          <li>Like lots of things, movies, tv series, running, hacking, ... </li>
+        </ul> 
+        </section>
+
+        <section>
+        <h1>Graph Processing DevRoom</h1>
+        <p><a href="http://fosdem.graph-database.org">http://fosdem.graph-database.org</a>
+        <a href="http://fosdem.org">http://www.fosdem.org</a></p>
+        2-3 Feb 2013, Brussels Belguim
+        </section>
+
+        <section>
+
+        <section>
+        <h2>Let's go wild!</h2>
+        <img src="img/wildgraph.jpg"/>
+        </section>
+
+        <section>
+        <h2>The Seven Bridges of Koningsberg</h2>
+        <img src="img/konigsberg-bridges.png">
+        </section>
+
+        <section>
+        <h2>It's an small world, after all</h2>
+        <img src="img/smallworld.jpg"/>
+        </section>
+
+        <section>
+        <h2>Everything is about connections</h2>
+        <blockquote>
+          I have observed that the selection of food is often influenced by the mood of the person ordering. 
+        </blockquote>
+        <p> <small>Star Trek: Lieutenant Commander Data</small></p>
+        </section>
+
+        <section>
+        <h2>Graph are intuitive</h2>
+        <blockquote cite="http://googleresearch.blogspot.de/2009/06/large-scale-graph-computing-at-google.html">
+          Developers of dozens of Pregel applications within Google have found that "thinking like a vertex," which is the essence of programming in Pregel, is intuitive. 
+        </blockquote>
+        <p> <small>Google Pregel paper</small></p>
+
+        </section>
+
+        <section>
+        <h2>Applications</h2>
+        <ul>
+          <li> Chemistry </li>
+          <li> Topology </li>
+          <li> Electric circuits, <b>Kirchoff et all</b> </li>
+          <li> Computer Science </li>
+          <li> Linguistics </li>
+          <li> Biology </li>
+          <li> Sociology </li>
+        </ul>
+        </section>
+
+        <section>
+          <h2>Graph in Computer Science</h2>
+          <p class="fragment">... Open questions? ....</p>
+						<ol>
+							<li class="fragment">How many lectures with graph involved?</li>
+              <li class="fragment">Something more than RDBMS when taking database course?</li>
+              <li class="fragment">How about the success rate?</li>
+              <li class="fragment">Who saw application on data?</li>
+              <li class="fragment">math?</li>
+              <li class="fragment">others?</li>
+						</ol>
+            
+        </section>
+
+        <section>
+        <h2>Low success rate</h2>
+        <img src="img/success.jpg"/>
+        </section>
+
+        <section>
+        <h2>Graph VS The Red Dragon</h2>
+        <img src="img/reddragon.jpg"/>
+        </section>
+
+        <section>
+        <h2>I did the math, or not!</h2>
+        <img src="img/mathcat.jpg"/>
+        </section>
+
+        <section>
+        <h2>Mission accomplished!</h2>
+        <img src="img/mission.jpg"/>
+        </section>
+
+        </section>
+
+        <section>
+
+        <section>
+        <h1>Graphs and (Data)</h1>
+        </section>
+
+        <section>
+        <h2>The hierarchical data model</h2>
+						<ul>
+          <li class="fragment">Parent/Child relationships...</li>
+          <li class="fragment">Lead by IBM in their IMF, precursor of the DBMS, mid 1960s...</li>
+          <li class="fragment">Supersede by Cood's Relational model...</li>
+        </ul>
+        </section>
+
+
+        <section>
+        <h2>The network data model</h2>
+        <ol>
+          <li class="fragment">Charles Bachman in 1969...</li>
+          <li class="fragment">Lead by Conference on Data Systems Languages and later an ISO spec</li>
+          <li class="fragment">Relevant Implementations:
+          <ul>
+            <li>Digital Equipment Corporation DBMS/VAX..</li>
+            <li>Univac DMS-1100...</li>
+          </ul>
+          </li>
+          <li class="fragment">Not much of success</li>
+        </ol>
+        </section>
+
+        <section>
+        <h2>Another related models:</h2>
+        <ul>
+          <li>Object databases</li>
+          <li>XML databases</li>
+          <li>Relational Databases</li>
+          <li>...</li>
+        </ul>
+        <br/>
+        <p>But <b>in 2007</b> Graph Processing was <em>born</em>.</p>
+        </section>
+
+        <section>
+          <p>
+            <h1>Graph Processing</h1>
+            <h4>Databases and Computing</h4> 
+          </p>
+        </section>
+
+        <section>
+          <h1>Majors on Graph</h1>
+          <table>
+              <tr>
+                <td><em>Twitter</em></td>
+                <td><a href="https://github.com/twitter/cassovary">Cassovary</a> -  A typical example usage is to do large scale graph mining and analysis of a big network.</td>
+              </tr>
+              <tr>
+                <td><em>Facebook</em></td>
+                <td><a href="http://www-conf.slac.stanford.edu/xldb2012/talks/xldb2012_wed_1105_DhrubaBorthakur.pdf">TAO</a>, the facebook social graph database</td>
+              </tr>
+              <tr>
+                <td><em>Google</em></td>
+                <td><a href="http://dl.acm.org/citation.cfm?id=1807184">Pregel</a>, a system for large-scale graph processing. </td>
+              </tr>
+              <tr>
+                <td colspan=2><a href="http://research.microsoft.com/en-us/projects/trinity/">Microsoft</a>, Oracle and others doing the same</td>
+              </tr>
+          </table>
+        </section>
+
+        <section>
+        <h1>But not just majors</h1>
+        <table>
+          <tr>
+            <td>Moviepilot Gmbh</td>
+            <td><a href="http://www.neotechnology.com/2012/05/moviepilot-usecase/">Neo4j</a>, as a recommendation engine powered engine.</td>
+          </tr>
+          <tr>
+            <td>Morgen UG</td>
+            <td><a href="http://www.morgner.de/">Morgner Gmbh</a>, provide support for graph databases within the CMS world.</td>
+          </tr>
+          <tr>
+            <td>BMAT SL</td>
+            <td><a href="http://www.bmat.com/">BMAT</a>, provide music innovation throw technology.</td>
+          </tr>
+          <tr>
+            <td colspan=2>
+              But many others like <a href="http://www.gameduell.de/">Game Duell</a> are looking for Graph knowledge.
+            </td>
+          </tr>
+        </table>
+          <p><small>Startups in Europe</small></p>
+        </section>
+
+        </section>
+
+        <section>
+        <section>
+        <h1>State of the art</h1>
+        </section>
+
+        <section>
+           <h2>Just because you can...</h2>
+           <img src="img/common.jpg"/> 
+        </section>
+
+        <section>
+           <h2>You choose...</h2>
+           <img src="img/youchoose.jpg"/> 
+        </section>
+
+        <section>
+        <h1>Databases</h1>
+        <ul>
+          <li class="fragment"><a href="http://neo4j.org">Neo4j</a></li>
+          <li class="fragment"><a href="http://www.sparsity-technologies.com/dex">DEX</a></li>
+          <li class="fragment"><a href="http://www.orientdb.org">OrientDB</a></li>
+          <li class="fragment"><a href="http://objectivity.com/">InfiniteGraph</a></li>
+        </ul>
+        <p class="fragment"><small>And many others...</small></p> 
+        </section>
+
+        <section>
+        <h1>Computing</h1>
+        <ul>
+          <li class="fragment"><a href="http://thinkaurelius.github.com/titan/">Titan</a></li>
+          <li class="fragment"><a href="">Apache Hama</a></li>
+          <li class="fragment"><a href="">Apache Giraph</a></li>
+          <li class="fragment"><a href="">Signal/Collect</a></li>
+        </ul>
+        <p class="fragment"><small>And many others...</small></p>         
+        </section>
+
+        <section>
+        <h1>Visualization</h1>
+        <ul>
+          <li class="fragment"><a href="">ArborJS</a></li>
+          <li class="fragment"><a href="">Gephi</a></li>
+          <li class="fragment"><a href="">yED</a></li>
+          <li class="fragment"><a href="">SigmaJS</a></li>
+        </ul>
+        <p class="fragment"><small>And many others...</small></p>         
+        </section>
+
+        </section>
+
+        <section>
+          <section>
+            <h1>Trends</h1>
+          </section>
+          
+          <section>
+            <h2>Towards real standards</h2>
+            <img src="img/onu.jpg" />
+          </section>
+          <section>
+            <h2>Towards real distributed systems</h2>
+            <img src="img/phone.jpg" />
+          </section>
+          <section>
+            <h2>Towards real query languages</h2>
+            <img src="img/query.png" />
+          </section>
+          <section>
+            <h2>Towards real benchmarking</h2>
+            <img src="img/bench.jpg" />
+          </section>
+          <section>
+            <h2>Towards real time</h2>
+            <img src="img/realtime.jpg" />
+          </section>
+        </section>
+        
+        <section>
+          <h2>Live and Alive</h2>
+          <img src="img/online.jpg" />
+        </section>
+        <section>
+          <img src="img/theend.jpg" />
+          <h3>BY Pere Urbon-Bayes / purbon.com</h3>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'linear', //Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+        { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+    <!-- Everything below this point is unrelated to the slideshow -->
+    <div class="footnote" style="position: absolute; bottom: 10px; left: 43%; margin-left: -205px; z-index: 20;">    
+      NoSQL and Graph Theory a love story. December 2012 Hadoop Get Together Berlin
+    </div>
+  </body>
+</html>
+

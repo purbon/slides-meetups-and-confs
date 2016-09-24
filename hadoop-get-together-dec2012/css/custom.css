@@ -1,0 +1,16 @@
+.footnote {
+  font-size: 1.6em;
+  font-family: "League Gothic", Impact, sans-serif;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.frontpage p img {
+  width: 320px;
+  height: 200px;
+}
+
+section img {
+  width: 640px;
+  height: 480px;
+}
