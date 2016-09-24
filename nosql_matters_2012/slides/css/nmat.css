@@ -1,0 +1,186 @@
+.center {
+  text-align: center;
+}
+
+img.center {
+  display:block;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.mini {
+  width: 300px;
+  height: 110px;
+  margin-bottom: 110px;
+  margin-left: 50px;
+}
+
+.small {
+  width: 298px;
+  height: 240px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  padding: 40px;
+}
+
+.big {
+  width: 900px;
+}
+
+.big .icon {
+  margin-top: 50px;
+}
+
+ul.thoughts-list {
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+ul.thoughts-list li {
+  margin-top: 10px;
+}
+
+#title {
+  width: 1024px;
+  padding: 40px 60px;
+  background-color: #e5e5e5;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+#title .title {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+#title .title h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#title .title h3 {
+  font-size: 25px;
+}
+
+.author {
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.contact {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.slide table {
+  margin-top: 40px;
+  width: 100%;
+  font-size: 100%;
+  color: rgb(102, 102, 102);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+.slide table tr {
+}
+
+.slide table tr td {
+  padding: 5px;
+}
+
+.slide table.toc tr td {
+  width: 50%;
+}
+
+.slide table.benchmark {
+  font-size: 20px;
+}
+
+.slide table.benchmark tr {
+  padding: 10px;
+}
+.slide table.benchmark td {
+  padding: 0;
+  margin: 0;
+}
+
+.slide h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+.slide table tr td ul {
+  margin-top: 23px;
+}
+
+.slide table .header {
+ font-weight: bold;
+}
+
+.slide ul {
+}
+
+.slide ul li {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.slide ul.center {
+  padding-top: 20%;
+}
+
+.slide .matrix table {
+  border: 1px solid black;
+  width: 250px;
+}
+
+.slide .matrix table tr {
+  border: 1px solid black;
+}
+
+.slide .matrix table td.header {
+  font-weight: bold;
+}
+
+.slide .matrix table td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.slide .matrix img {
+  float:right;
+  margin-top: -200px;
+}
+
+.slide .matrix h1 {
+  margin-top: 125px;
+}
+
+.slide .reference {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.slide .logo {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 30px;
+  width: 480px;
+  height: 115px;
+}
+
+.slide .logo220px {
+  width: 150px;
+  margin-left: 480px;
+}

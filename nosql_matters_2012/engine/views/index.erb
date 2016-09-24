@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/silvia.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/sigma.js"></script>
+    <script src="js/sigma.forceatlas2.js"></script>
+    <script src="js/silvia.js"></script>
+    <script src="js/silvia-queries.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+      </div>
+      <div id="body">
+        <div class="menu">
+          <input type="text" id="query" name="query" />
+          <select>
+            <option value="social-network">Social Network</option>
+          </select>
+          <a href="#" class="button small" onclick="queries.social_network()">Run</a>
+        </div>
+        <div id="silvia-graph"></div>
+      </div>
+    </div>
+  </body>
+  <script>graph.init();</script>
+</html>

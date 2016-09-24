@@ -1,0 +1,17 @@
+    def self.network(id)
+      user      = Silvia.pacer.vertex id
+      traversal = user.out_e(:likes)
+      traversal = filter_by_rate(traversal, 3)
+      traversal = traversal.in_v
+      traversal = filter_by_rate(traversal.in_e(:likes), 3)
+      traversal = traversal.out_v.uniq
+      traversal.to_a.map { |u| u['user_id'] }.to_json
+    end
+
+    private
+
+    def self.filter_by_rate(traversal, rate)
+      traversal.filter do |e| 
+         e['rate'].to_i > rate
+      end
+    end

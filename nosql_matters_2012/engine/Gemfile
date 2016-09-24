@@ -1,0 +1,25 @@
+source "http://rubygems.org"
+
+gem 'json'
+gem 'sinatra'
+gem 'rack'
+gem 'active_support'
+gem 'fastercsv'
+
+group :development do
+  gem 'rspec', '2.6.0'
+  gem 'rack-test'
+end
+
+group :test do
+  gem 'rspec', '2.6.0'
+end
+
+platforms :jruby do
+  gem "jruby-rack", "1.0.10"
+  gem 'jruby-openssl'
+  gem 'neo4j'
+  gem 'ffi-ncurses'
+  gem 'pacer'
+  gem 'pacer-neo4j', '1.0.7.1'
+end

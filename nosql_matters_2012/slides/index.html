@@ -1,0 +1,560 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=2048" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>From Tables to Graph: Recommendation Engines (A GraphDB use case analysis)</title>
+    <meta name="description" content="Slides for the conference about recommendation engines at NoSQL Matters 2012"/>
+    <meta name="author" content="Pere Urbon-Bayes" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/nmat.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body class="impress-not-supported">
+
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+
+      <div id="title" class="step" data-x="0" data-y="0" data-scale="10">
+        <div class="title">
+          <h1 class="center">From Tables to Graph</h1>
+          <h3 class="center">A GraphDB use case analysis</h3>
+        </div>
+        <img src="images/nmat.png" style="margin-left: 283px; padding-top: 10px;"/>        
+        <div class="center author">
+          <p>Pere Urbon-Bayes<p/>
+          <p><a href="#">pere dot urbon (at) gmail dot com</a><p/>
+          <p><a href="http://www.purbon.com">http://www.purbon.com</a></p>
+        </div>
+        <div class="center contact">
+          <p>Belectric IT Solutions GmbH<p/>
+          <h4>May 29, 2012</h4>
+        </div>
+      </div>
+      
+      <div class="slide step" data-x="-2500" data-y="-1000">
+        <h1>Who I am?</h1>
+        <ul class="center">
+          <li>Software Engineer</li>
+          <li>Free and Open Source advocate</li>
+          <li>Interested in <strong>Data centric applications</strong>, <strong>distributed systems</strong>, <strong>NoSQL</strong>, <strong>Graph</strong>, <strong>FLOSS</strong>, <strong>Ruby</strong>, ...</li>
+          <li>Software Architect at Belectric IT Solutions GmbH</li>
+        </ul>
+        <br/>
+          <a href="http://github.com/purbon"><img src="images/github-logo.png" width="100px" height="100px" /></a> 
+          <a href="http://www.twitter.com/purbon"><img src="images/twitter-logo.png" with="100px" height="100px"/></a>
+          <a href="http://www.linkedin.com/in/purbon"><img src="images/linkedin-logo.png" with="100px" height="100px"/></a>
+          
+      </div>
+
+      <div class="step" data-x="-1500" data-y="-1000">
+        <img src="images/Amazing-Cherry-Blossom-Park.jpg" style="margin-left:0px" />
+      </div>
+
+
+      <div id="toc" class="slide step" data-x="-500" data-y="-1000">
+        <h1>Table of Contents</h1>
+        <table class="toc">
+          <tr>
+            <td class="header">Doing recommendations</td>
+            <td class="header">Graph Processing</td>
+          </tr>
+          <tr>
+            <td><ul>
+                <li>Motivations</li>
+                <li>Recommendation Systems</li>
+                <li>Content Based</li>
+                <li>Collaborative Filtering</li>
+                <li>Useful Tools</li>
+            </ul></td>
+            <td><ul>
+                <li>The Taxonomy</li>
+                <li>Motivations</li>
+                <li>The things behind (Property Graph/Page Rank)</li>
+                <li>Use case list</li>
+                <li>Vendors</li>
+            </ul></td>
+          </tr>
+          <tr>
+            <td colspan=2 class="header">A real experience</td>
+          </tr>
+        </tr>
+        <td>
+          <ul><li>Parts of the Engine</li>
+            <li>Source code time</li></ul>
+        </td><td></td>
+    </tr></table>
+  </div>
+
+  <div class="step" data-x="500" data-y="-1000">
+      <img src="images/991-trinity-dublin.png" width="1000px" height="700px" />
+  </div>
+
+  <div class="slide step" data-x="1500" data-y="-1000" data-rotate=90>
+    <h1>Use cases</h1>
+    <ul class="center">
+      <li>To help clients discover new things</li>
+      <li>Archive a better user experience</li>
+      <li>To improve your shop revenues</li>
+      <li>To win knowledge about your user base</li>
+      <li>”....”</li>
+    </ul>
+  </div>
+
+  <div class="step slide" data-x="1500" data-y="0" data-rotate=90>
+    <h1>Real Applications</h1>
+    <ul class="center">
+      <li>Music discovery <em>(Spotify, last.fm, ...)</em></li>
+      <li>Book recommendations <em>(Amazon, ...)</em></li>
+      <li>Movie discovery <em>(Netflix, Moviepilot, ...)</em></li>
+      <li>Content discovery and matching <em>(Google News, paper.li, ...)</em></li>
+      <li>Friend discovery <em>(Facebook, Twitter, ...)</em></li>
+    </ul>
+  </div>
+
+  <div class="step slide" data-x="1500" data-y="1000" data-rotate=90>
+    <h1>The Utility Matrix</h1>
+    <div class="matrix">
+      <table>
+        <tr><td></td>   <td class="header">I1</td> <td class="header">I2</td> <td class="header">I3</td> <td class="header">I4</td></tr>
+        <tr><td class="header">U1</td> <td>5</td>   <td></td>  <td>2</td>  <td></td></tr>
+        <tr><td class="header">U2</td> <td>1</td>   <td>3</td> <td></td>   <td></td></tr>
+        <tr><td class="header">U3</td> <td></td>    <td></td>  <td>1</td>  <td>1</td></tr>
+        <tr><td class="header">U4</td> <td>5</td>   <td>5</td> <td></td>   <td>4</td></tr>
+        <tr><td class="header">U5</td> <td>1</td>   <td></td>  <td></td>   <td>1</td></tr>
+      </table>
+      <img src="images/utility-graph.png"/>
+      <h1>What about using a graph?</h1>
+    </div>
+  </div>
+  <div class="big step" data-x="3000" data-y="500" data-rotate=90>
+    <h1>Content Based</h1>
+    <ul class="thoughts-list">
+      <li>Element similarity</li>
+      <li>Profiles, Features (Tags)</li>
+      <li>Discovery of Features</li>
+      <li>Classifiction Algorithms</li>
+    </ul>
+  </div>
+
+  <div class="big step" data-x="3500" data-y="100" data-rotate=-90>
+    <h1>Content Filtering</h1>
+    <ul class="thoughts-list">
+      <li>Calculate similarity (distance functions)</li>
+      <li>Ratings normalization</li>
+      <li>Clustering methods</li>
+      <li>UV-Decomposition</li>
+      <li>Root-Mean-Square Errors</li>
+    </ul>
+  </div>
+  <div class="slide step" data-x="4150" data-y="100">
+    <h1>Description of your data</h1>
+    <br/><br/>
+    <h2>How close are the user profiles to the item ones? but...</h2>
+    <br/><br/>
+    <ul>
+      <li>The similarity method?</li>
+      <li>What about if you dislike an item?</li>
+      <li>Normalize data or not to normalize?</li>
+      <li>Machine Learning or classification methods?.</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="5100" data-y="100">
+    <h1>The Distance</h1>
+    <ul class="center">
+      <li><b>Cosine Distance:</b> The cosine of the angle between two vectors thus
+      determines whether two vectors are pointing in roughly the same
+      direction.</li>
+      <li><b>Jaccard Distance</b>: Measures similarity between sample sets, and is
+      defined as the size of the intersection divided by the size of the
+      union of the sample sets</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="6100" data-y="100">
+    <!--<p>If we want to recommend new items to the user, we are going to compute
+    how similar are the elements into the utility matrix. Pay attention to:</p>-->
+    <h1>Recommendations by similarity</h1>
+    <ul class="center">
+      <li><strong>Jaccard distance</strong> is useful when our values are booleans</li>
+      <li><strong>Cosine distance</strong> works with different ranges</li>
+      <li>We <strong>use to normalize</strong></li>
+      <li><strong>The Duality</strong>, or problems, of the similarity computation</li>
+    </ul>
+  </div>
+
+  <div class="big step" data-x="3500" data-y="1000" data-rotate=-90>
+    <h1>What about user, or items, aggregation?</h1>
+  </div>
+
+  <div class="big step" data-x="7000" data-y="2000" data-rotate=180>
+    <h1>Graph Processing</h1>
+  </div>
+
+  <div class="step" data-x="6000" data-y="2000" data-rotate=180>
+    <img src="images/one-ring.jpg" width="900px" />
+  </div>
+
+  <div class="step" data-x="5000" data-y="2000" data-rotate=180>
+    <img src="images/common-sense.jpg" width="900px" />
+  </div>
+
+
+  <div class="slide step" data-x="4000" data-y="2000" data-rotate=180>
+    <h1>The Taxonomy</h1>
+    <table class="toc">
+      <tr>
+        <td class="header">Graph <em>Databases</em></td>
+        <td class="header">Graph <em>Processing</em></td>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Neo4j</li>
+            <li>OrientDB</li>
+            <li>DEX</li>
+            <li>...</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Apache Giraph/Hamma</li>
+            <li>Google Pregel</li>
+            <li>Signal/Collect</li>
+            <li>FlockDB</li>
+            <li>...</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=2 class="header">Graph <em>APIs</em>?</td>
+      </tr>
+      <tr>
+        <td colspan=2>
+          <ul>
+            <li>Blueprints(.NET)</li>
+            <li>Gremlin/Cypher/Pacer</li>
+            <li>SparQL</li>
+            <li>...</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="slide step" data-x="3000" data-y="2000" data-rotate=180>
+    <h1>Motivations</h1>
+    <ul class="center">
+      <li>Connections are receiving more attention</li>
+      <li>We've more data, huge amount of data</li>
+      <li>Graph are easy than discrete mathmatics</li>
+      <li>We've the use cases, Social Networks, RecSys, ...</li>
+      <li><strong>Performance, Performance!!!!</strong></li>
+    </ul>
+  </div>
+  <div class="slide step" data-x="2000" data-y="2000" data-rotate=180>
+    <h1>The Property Graph</h1>
+    <img class="center" src="images/property-graph.jpg"/>
+  </div>
+  <div class="slide step" data-x="1000" data-y="2000" data-rotate=180>
+    <h1>The PageRank</h1>
+    <br/>
+    <ul>
+      <li>Google algorithm for measuring the authority of a webpage based on the underlying network of hyperlinks.</li>
+      <li>Each vertex distributes its authority to its neighbors in equal proportions</li>
+    </ul>
+    <br/>
+    <img class="small" src="images/pagerank-graph.png"/>
+    <img class="mini" src="images/pagerank-calc.png" />
+  </div>
+  <div class="slide step" data-x="0" data-y="2000" data-rotate=180>
+    <h1>The PageRank (With Graphs?)</h1>
+    <br/>
+    <ul>
+      <li>The PageRank is the eigenvector of the Markov matrix defined by the transition probabilites between pages</li>
+      <li>It can be obtained by iteratively multiplication of an initial vector M (power iteration)</li>
+    </ul>
+    <br/>
+    <h1>Drawbacks</h1>
+    <br/>
+    <ul>
+      <li>Not intuitive, do you think on eigenvectors?</li>
+      <li>Hard to implement</li>
+      <li>Performance? Space?</li>
+    </ul>
+  </div>
+  <div class="slide step" data-x="-1000" data-y="2000" data-rotate=180>
+    <h1>Use cases</h1>
+    <table class="toc">
+      <tr>
+        <td><ul>
+            <li>Clustering (Communities)</li>
+            <li>Social connexions</li>
+            <li>Hubs</li>
+            <li>Graph Mining</li>
+            <li>Recommendation systems</li>
+            <li>Geo Information systems</li>
+            <li>Semantic Web</li>
+            <li>Centrality Measures</li>
+        </ul></td>
+        <td><ul>
+            <li>Task Planning</li>
+            <li>Scheduling</li>
+            <li>Process Assignation</li>
+            <li>Routing</li>
+            <li>Logistics</li>
+            <li>Pattern recognition</li>
+            <li>Link Analysis</li>
+            <li>Optimization</li>
+        </ul></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="slide step" data-x="-2000" data-y="2000" data-rotate=180>
+    <h1>Graph Database Performance</h1>
+    <table class="benchmark">
+      <tr>
+        <td>Kernel S15</td>
+        <td class="header">DEX</td>
+        <td class="header">Neo4j</td>
+        <td class="header">Jena</td>
+        <td class="header">HyperGraphDB</td>
+      </tr>
+      <tr>
+        <td class="header">Load(s)</td>
+        <td>7.44</td>
+        <td>697</td>
+        <td>141</td>
+        <td>+24h</td>
+      </tr>       
+      <tr>
+        <td class="header">Scan(s)</td>
+        <td>0.0010</td>
+        <td>2.71</td>
+        <td>0.689</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">2-Hops(s)</td>
+        <td>0.0120</td>
+        <td>0.0260</td>
+        <td>0.443</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">BC(s)</td>
+        <td>14.8</td>
+        <td>8.24</td>
+        <td>138</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">Size(MB)</td>
+        <td>30</td>
+        <td>17</td>
+        <td>207</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table class="benchmark">
+      <tr>
+        <td>Kernel S20</td>
+        <td class="header">DEX</td>
+        <td class="header">Neo4j</td>
+        <td class="header">Jena</td>
+        <td class="header">HyperGraphDB</td>
+      </tr>
+      <tr>
+        <td class="header">Load(s)</td>
+        <td>317</td>
+        <td>32.094</td>
+        <td>4.560</td>
+        <td>+24h</td>
+      </tr>       
+      <tr>
+        <td class="header">Scan(s)</td>
+        <td>0.005</td>
+        <td>751</td>
+        <td>18.6</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">2-Hops(s)</td>
+        <td>0.033</td>
+        <td>0.0230</td>
+        <td>0.4580</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">BC(s)</td>
+        <td>617</td>
+        <td>7027</td>
+        <td>59512</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="header">Size(MB)</td>
+        <td>893</td>
+        <td>539</td>
+        <td>6656</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div class="reference">Reference: .... </div>
+  </div>
+
+  <div class="slide step" data-x="-3000" data-y="2000" data-rotate=180>
+    <h1>Neo4j (at neo4j.org)</h1>
+    <img class="logo" src="images/neo4j_logo.png"/>
+    <ul class="center">
+      <li>Embedded, disk-based, fully transactional Java persistence engine that stores data structured in graphs rather than in tables.</li>
+      <li>GPL, AGPL and Commercial License.</li>
+      <li>High Availability, Scalability, ACID, REST-API</li>
+      <li>Query Languages, Cypher, Gremlin, ..</li>
+      <li>Choose your favourite language paradigm!</li>
+    </ul>
+  </div>
+
+
+  <div class="slide step" data-x="-4000" data-y="2000" data-rotate=180>
+    <h1>OrientDB</h1>
+    <img class="logo" src="images/orientdb_logo.png"/>
+    <ul class="center">
+      <li>An embedded pure java fast, transactional, scalable document-graph storage engine.</li>
+      <li> Schema free, ACID, suport for SQL and JSON.</li>
+      <li>Apache License 2.0</li>
+      <li>Multiple Query Languages</li>
+      <li>Choose your favourite language paradigm!</li>
+      <li>More info: http://www.orientechnologies.com</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="-5000" data-y="2000" data-rotate=180>
+    <h1>Apache Giraph</h1>
+    <img src="images/giraph_logo.png" class="logo logo220px"/>
+    <ul class="center">
+      <li>Google Pregel implementation on top of Hadoop</li>
+      <li>Specialy developed for large scale graph processing</li>
+      <li>Intuitive API, think like a graph!</li>
+      <li>Bulk Synchronous Parallel (BSP) as execution model</li>
+      <li>fault tolerance by checkpoint</li>
+      <li>Currently Apache Incubator, Apache License</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="-6000" data-y="2000" data-rotate=180>
+    <h1>Signal/Collect</h1>
+    <img src="images/signalcollect_logo.png" class="logo"/>
+    <ul class="center">
+      <li>Transparent Parallel Graph Algorithms execution</li>
+      <li>Synchronous and Asynchronous execution models</li>
+      <li>Implement the property graph</li>
+      <li>Storage Large Graph on disc</li>
+      <li>Suported by: Dynamic and Distributed Information Systems group from UZH and HaslerStiftung</li>
+      <li>Available at: http://code.google.com/p/signal-collect/</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="-7000" data-y="2000" data-rotate=180>
+    <h1>Blueprints APIs</h1>
+    <img src="images/blueprints_logo.png" class="logo"/>
+    <ul class="center">
+      <li>Property Graph model interface to multiple Graph Processing projects.</li>
+      <li>Suports: Neo4j, OrientDB, DEX, InfiniteGraph, Sesame 2.0 compilant RDF Stores, etc..</li>
+      <li>From the creators of Gremlin, Pipes, etc..</li>
+      <li>Open Source BSD like license</li>
+      <li>Available at: https://github.com/tinkerpop/blueprints</li>
+    </ul>
+  </div>
+
+  <div class="big step" data-x="5000" data-y="4000" data-rotate=180>
+    <h1>But what about the real live?</h1>
+  </div>
+
+  <div class="slide step" data-x="4000" data-y="4000" data-rotate=180>
+    <h1>Parts of the Engine</h1>
+    <img src="images/engine.svg"/ class="center" style="margin-top: 100px; margin-left: 70px; width: 900px;">
+  </div>
+
+  <div class="slide step" data-x="3000" data-y="4000" data-rotate=180>
+    <h1>The Graph Hicker</h1>
+    <ul class="center">
+      <li>Used to walk the graph</li>
+      <li>Can listen to events fired by your application</li>
+      <li>Has specialized resources, algorithms and knowledge</li>
+      <li>Prepare the graph for user centring algorithms</li>
+      <li>Perform statistics of your graph</li>
+      <li>Job centric, background oriented</li>
+      <li>Can act like a cron job, or a cluster</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="2000" data-y="4000" data-rotate=180>
+    <h1>The Graph Storage</h1>
+    <ul class="center">
+      <li>Has your graph stored</li>
+      <li>Include high throuput methods</li>
+      <li>What happends when you are delete?</li>
+      <li>Can be distributed?</li>
+      <li>Fire events to other systems (hicker, search, ... )</li>
+      <li>Backup</li>
+    </ul>
+  </div>
+
+  <div class="slide step" data-x="1000" data-y="4000" data-rotate=180>
+    <h1>The API</h1>
+    <ul class="center">
+      <li>Used by the different UI</li>
+      <li>Access the different set of database</li>
+      <li>Adapt data from the graph to the differnt UI formats</li>
+      <li>Has authorization, and authentication methods</li>
+      <li>...</li>
+    </ul>
+  </div>
+
+  <div class="big step" data-x="0" data-y="4000" data-rotate=180>
+    Let's see some code
+  </div>
+
+  <div class="big step" data-x="-1000" data-y="4000" data-rotate=180>
+    Questions? - Fraguen? - Preguntas? - Preguntes?
+  </div>
+
+
+  <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+  </div>
+
+</div>
+
+<div class="hint">
+  <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script>
+  if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+  }
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+  </body>
+</html>
